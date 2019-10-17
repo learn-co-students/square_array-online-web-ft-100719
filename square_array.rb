@@ -1,3 +1,6 @@
 def square_array(array)
-  # your code here
-end
+  dearray = []
+  array.each {|x|dearray.push (x*x)}
+  return dearray
+  end
+  
